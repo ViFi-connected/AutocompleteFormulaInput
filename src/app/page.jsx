@@ -1,6 +1,6 @@
 import Controls from '@/components/Controls';
-import Query from '@/components/Query';
-import QueryCounter from '@/components/QueryCounter';
+import Formula from '@/components/Formula';
+import FormulaCounter from '@/components/FormulaCounter';
 
 export async function getOptions() {
   const res = await fetch(
@@ -18,9 +18,9 @@ export default async function Home() {
 
   return (
     <div className='flex h-screen flex-col place-content-center items-center'>
-      <Query options={initialData} />
+      <Formula options={initialData} />
       <Controls/>
-      <QueryCounter />
+      <FormulaCounter />
     </div>
   );
 }

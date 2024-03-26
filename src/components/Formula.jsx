@@ -4,7 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import { getOptions } from '@/app/page';
 import CreatableSelect from 'react-select/creatable';
 
-export default function Query(props) {
+export default function Formula(props) {
   const { data } = useQuery({
     queryKey: ['name'],
     queryFn: getOptions,
