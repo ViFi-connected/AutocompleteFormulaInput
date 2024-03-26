@@ -17,7 +17,7 @@ export default async function Home() {
   const initialData = await getOptions();
 
   return (
-    <div className='flex h-screen flex-col place-content-center items-center'>
+    <div className='flex h-screen flex-col place-content-center items-center p-10'>
       <Formula options={initialData} />
       <Controls/>
       <FormulaCounter />

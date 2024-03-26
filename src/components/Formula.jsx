@@ -20,7 +20,7 @@ export default function Formula(props) {
       options={options}
       isMulti
       name="query"
-      className="basic-multi-select w-1/3"
+      className="basic-multi-select w-full lg:w-1/3"
       classNamePrefix="select"
     />
   );
