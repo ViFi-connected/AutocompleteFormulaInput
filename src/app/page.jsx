@@ -17,9 +17,9 @@ export default async function Home() {
   const initialData = await getOptions();
 
   return (
-    <div className="flex flex-col w-2/3">
+    <div className='flex h-screen flex-col place-content-center items-center'>
       <Query options={initialData} />
-      <Controls />
+      <Controls/>
       <QueryCounter />
     </div>
   );

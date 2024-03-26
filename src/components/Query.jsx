@@ -20,7 +20,7 @@ export default function Query(props) {
       options={options}
       isMulti
       name="query"
-      className="basic-multi-select"
+      className="basic-multi-select w-1/3"
       classNamePrefix="select"
     />
   );
