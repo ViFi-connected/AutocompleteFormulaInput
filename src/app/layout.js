@@ -1,5 +1,4 @@
-// app/layout.jsx
-import Providers from './providers'
+import Providers from './providers';
 
 export default function RootLayout({ children }) {
   return (
@@ -9,5 +8,5 @@ export default function RootLayout({ children }) {
         <Providers>{children}</Providers>
       </body>
     </html>
-  )
+  );
 }

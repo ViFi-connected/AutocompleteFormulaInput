@@ -1,5 +1,5 @@
 import Controls from '@/components/Controls';
-import Options from '@/components/Options';
+import Query from '@/components/Query';
 import QueryCounter from '@/components/QueryCounter';
 
 export async function getOptions() {
@@ -18,7 +18,7 @@ export default async function Home() {
 
   return (
     <div className="flex flex-col w-2/3">
-      <Options options={initialData} />
+      <Query options={initialData} />
       <Controls />
       <QueryCounter />
     </div>
